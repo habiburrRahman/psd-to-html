@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* *****************************
+Universal css style code 
+******************************** */
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flow-root;
+}
+.container2{
+    width: 950px;
+    margin: auto;
+    display: flow-root;
+}
+/* *****************************
+Universal css style code 
+******************************** */
+/* header section go here */
+header{
+    width: 100%;
+    padding: 50px 0;
+    display: flow-root;
+}
+.nav-bar{
+    width: 100%;
+    display: flow-root;
+}
+.logo{
+    width: 25%;
+    float: left;
+}
+.menu{
+    width: 75%;
+    text-align: right;
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+.menu ul li a{
+    color: #c0c0c0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+.menu ul li a:hover{
+    color: black;
+}
+ /* *******************************
+  content section go here  
+  ********************************* */
+  .content{
+      width: 100%;
+      display: flow-root;
+  }
+  .image{
+      padding: 30px 0;
+  }
+  .img-des{
+      padding: 30px 0;
+  }
+  .img-des h1{
+      margin: 20px 0;
+      color:#b0b0b0;
+      font-family: 'Playfair Display',serif;
+  }
+  .img-des p{
+    margin: 20px 0;
+    color:#626262;
+    font-family: 'Playfair Display',serif;
+    line-height: 20px;
+} 
+ .img-des h5{
+    margin: 20px 0;
+    color: #c0c0c0;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+/* ***********************************
+double post section start from here
+**************************************  */
+.double-section{
+    width: 100%;
+    display: flow-root;
+    padding: 30px 0;
+}
+.double-post{
+    width: 100%;
+    display: flow-root;
+}
+.left{
+    width: 50%;
+    float: left;
+}
+.left h5,.right h5{
+    margin: 20px 0;
+    color: #c0c0c0;
+    font-family: 'Ubuntu',sans-serif;
+}
+.left h1,.right h1{
+    margin: 20px 0;
+    color:#b0b0b0;
+    font-family: 'Playfair Display',serif;
+}
+.left p,.right p{
+    margin: 20px 0;
+    color:#626262;
+    font-family: 'Playfair Display',serif;
+    line-height: 20px;
+}
+.right{
+    width: 50%;
+    float: right;
+}
+.space{
+    margin-right: 25px;
+}
+.space1{
+    margin-left: 25px;
+}
+ /* ******************************* 
+ subscribe section start from here 
+ ********************************** */
+.form-section{
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 40px 0 70px 0;
+    text-align: center;
+    margin:30px 0 70px 0
+}
+.form-section h1{
+    margin: 20px 0;
+    color: #464646; 
+    font-family: 'Playfair Display',serif;
+}
+.form-section form input{width: 35%;border: none;border-bottom: 2px solid #626262;padding: 10px 0;background: transparent;}
+.form-section form input::placeholder{
+    color: #626262;
+    font-family: 'Playfair Display',serif;  
+}
+.form-section form input:focus{
+    outline: none;
+    border-bottom-color: black;
+}
+ /* *************************************
+  button section start from here
+  *************************************** */
+  .button-section{
+      width: 100%;
+  }
+  .button-section button{
+      width: 15%;
+      display: block;
+      margin: 30px auto 80px auto;
+      padding: 15px;
+      color: #626262;
+      font-family: 'Playfair Display',serif;
+      background: #f5f5f5;
+      border: 1px solid #dad6d6;
+  }
+  .button-section button:focus{
+      outline: none;
+      background-color: #626262;
+      color: #c0c0c0;
+  }
+/* ********************************
+footer section start from here
+*********************************** */
+footer{
+    width: 100%;
+    background-color:#F0F0F0;
+    display: flow-root;
+}
+.footer-inside{
+    width: 100%;
+    display: flow-root;
+    margin: 40px 0;
+}
+.left1{
+    width: 50%;
+    font-size: 18px;
+    color:#626262;
+    font-family: 'Playfair Display', serif;
+    float: left;
+}
+.left1 span{
+    margin-right: 20px;
+}
+.right1{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.right1 ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.right1 ul li a{
+    color:#626262;
+    font-family: 'Playfair Display', serif;
+    text-decoration:none;
+    font-size: 18px;
+}
+.right1 ul li a:hover{
+    color:black;
+}
+
+
